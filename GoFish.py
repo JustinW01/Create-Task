@@ -1,0 +1,37 @@
+import random
+
+print('Welcome! Lets play a game of War.')
+print('This is a two player game. Please insert your names here:')
+str(input('Player 1 Name: '))
+str(input('Player 2 Name: '))
+    
+print('--------------------------------------------------------------------------------')
+PlayerResponse = int(input('Press 1 for directions, or press 2 to start: '))
+if PlayerResponse == 1:
+    print('--------------------------------------------------------------------------------')
+    print('Goal:')
+    print('- To eventually win all of the cards.')
+    print('--------------------------------------------------------------------------------')
+    print('Card Ranking:')
+    print('The ranking for cards in War from highest to lowest is A K Q J 10 9 8 7 6 5 4 3 2.')
+    print('Nothing beats an Ace and a 2 beats nothing.')
+    print('--------------------------------------------------------------------------------')
+    print('How to Play:')
+    print('- The cards will be shuffled, and each player will be dealt 26 cards.')
+    print('- The cards will be put into stacks, and when the game begins, both players will flip the top card over at the same time.')
+    print('- The player with the highest card will take both of the cards and add them to their deck.')
+    print('- If both cards are the same, for example each player draws a 6, a war will start.')
+    print('- To complete the war, each player will take 3 cards from the top of their deck and keep them face down. Each player will then flip over the next card in their deck, and the player with the highest card gets ALL 10 of the cards.')
+    print('- Keep playing until one player has all of the cards.')
+    print('--------------------------------------------------------------------------------')
+    print('Winning:')
+    print('- ')
+    print('--------------------------------------------------------------------------------')
+    PlayerResponse2 = int(input('Press 1 to begin: '))
+    if PlayerResponse2 == 1:
+        print('')
+        print('--------------------------------------------------------------------------------')
+        print('                                   Go Fish:                                     ')
+        print('--------------------------------------------------------------------------------')
+        #print('(make a variable called "game" above and use here)')
+
